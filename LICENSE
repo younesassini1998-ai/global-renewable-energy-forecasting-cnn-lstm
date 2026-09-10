@@ -1,0 +1,17 @@
+---
+
+### Étape 3 : Publier sur GitHub
+
+1. Allez sur [github.com](https://github.com/) et connectez-vous.
+2. Cliquez sur **New repository** :
+   * Nom : `global-renewable-energy-forecasting`
+   * Visibilité : **Public**
+   * Ne cochez rien d'autre (vous avez déjà les fichiers).
+3. Ouvrez un terminal (ou invite de commande) dans votre dossier local et exécutez :
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit: complete reproducible research pipeline"
+   git branch -M main
+   git remote add origin https://github.com/VOTRE_PSEUDO/global-renewable-energy-forecasting.git
+   git push -u origin main
